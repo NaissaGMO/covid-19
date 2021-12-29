@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>As vacinas</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <link rel="icon" href="./public/images/iconmonstr-virus-13.svg" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/sidebar.css" />
+    <link rel="stylesheet" href="./public/css/buttons.css" />
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="./public/css/pages.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="pages">
+      <aside class="animate-right sidebar">
+        <img src="./public/images/mundo.png" />
+        <footer>
+          <button onclick="history.back()">
+            <img src="./public/images/arrow-back.svg" alt="Voltar">
+          </button>
+        </footer>
+      </aside>
+
+      <main class="animate-appear with-sidebar">
+        <div class="pages-details"> </div>
+          <div class="pages-details-content">
+            <h1>As vacinas</h1>
+            <p>Para o vírus influenza, infelizmente, não foram produzidas vacinas por falta de conhecimento 
+              acerca do vírus e para o SARS-COV-2, no decorrer da pandemia, algumas vacinas foram 
+              desenvolvidas como a CoronaVac, AstraZeneca, Pfizer e moderna. </p>
+            <hr />
+
+            <h2>CoronaVac</h2>
+            <p>
+              Esta vacina é feita a partir do vírus inativado, para que o corpo crie anticorpos. As pessoas 
+              vacinadas pela CoronaVac possuem aproximadamente 50% a menos de chances de serem infectadas pelo 
+              covid e impede completamente aqueles que pegaram de adoecer gravemente.
+            </p>
+            <hr />
+
+            <h2>AstraZeneca</h2>
+            <p>
+              Esta vacina faz uso de uma tecnologia denominada como vetor viral não replicante. Em outras 
+              palavras, ela utiliza um vírus geneticamente modificado e incapaz de se reproduzir, que possua 
+              características em comum com o SARS-COV-2 (como a espícula), a fim de simular uma infecção por covid. 
+              Sendo assim, o sistema da pessoa vacinada passa a criar anticorpos contra o coronavírus. A eficácia 
+              média da AstraZeneca é de 70%.
+            </p>
+            <hr />
+
+            <h2>Pfizer</h2>
+            <p>
+              Esta vacina conta com uma tecnologia denominada como mRNA. Sendo assim, ela possui réplicas do RNA 
+              mensageiro de vírus cultivados em laboratório. O RNA mensageiro utilizado nesta, simula a proteína 
+              Spike (espícula), exclusiva do coronavírus. Por causa do contato com a espícula, o corpo da pessoa 
+              vacinada passa a criar anticorpos contra o Covid. Além de ser  uma opção mais rápida e barata, a 
+              eficácia da Pfizer chega a ser de 95%.
+            </p>
+            <hr />
+
+            <h2>Moderna</h2>
+            <p>
+              Esta vacina possui a mesma tecnologia da Pfizer, no entanto ela necessita de armazenamento de -20ºC 
+              e sua eficácia é de aproximadamente 94%.
+            </p>
+            <hr />
+
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

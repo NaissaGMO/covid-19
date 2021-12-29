@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taxa de mortalidade | Covid-19 X Gripe Espanhola</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <link rel="icon" href="./public/images/iconmonstr-virus-13.svg" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/sidebar.css" />
+    <link rel="stylesheet" href="./public/css/buttons.css" />
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="./public/css/pages.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="pages">
+      <aside class="animate-right sidebar">
+        <img src="./public/images/mundo.png" />
+        <footer>
+          <button onclick="history.back()">
+            <img src="./public/images/arrow-back.svg" alt="Voltar">
+          </button>
+        </footer>
+      </aside>
+
+      <main class="animate-appear with-sidebar">
+        <div class="pages-details"> </div>
+          <div class="pages-details-content">
+            <h1>Taxa de mortalidade | Covid-19 X Gripe Espanhola</h1>
+            <p>
+              O gráfico é estimativo. Vale ressaltar que os dados citados de morte por covid-19 se restringiram 
+              aos números divulgados até o dia 07/04/2021 e os dados apresentados de óbitos por Influenza foram 
+              escolhidos a dedo a fim de amenizar a disparidade, no entanto em alguns países o número de morte 
+              está na casa dos milhões, como é o caso da Índia, onde a estimativa está entre 10 a 17 milhões, ou 
+              da África Subsaariana, que se encontra entre 1,5 a 2 milhões.
+            </p>
+            <br/>
+            <br/>
+            <br/>
+            <img src="./public/images/Gráfico-topico10.png" alt="gráfico" />
+            <hr />
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

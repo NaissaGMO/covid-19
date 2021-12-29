@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Replicação dos vírus</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <link rel="icon" href="./public/images/iconmonstr-virus-13.svg" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/sidebar.css" />
+    <link rel="stylesheet" href="./public/css/buttons.css" />
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="./public/css/pages.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="pages">
+      <aside class="animate-right sidebar">
+        <img src="./public/images/mundo.png" />
+        <footer>
+          <button onclick="history.back()">
+            <img src="./public/images/arrow-back.svg" alt="Voltar">
+          </button>
+        </footer>
+      </aside>
+
+      <main class="animate-appear with-sidebar">
+        <div class="pages-details"> </div>
+          <div class="pages-details-content">
+            <h1>Replicação dos vírus</h1>
+            <hr />
+            
+            <h2>SARS-COV-2</h2>
+            <p>
+              O covid utiliza elementos de sua própria morfologia para invadir as células. O vírus possui 
+              em seu envelope envoltório, proteínas específicas denominadas como “spikes” as quais se 
+              assemelham a uma coroa. Essas proteínas auxiliam a entrada do patógeno na célula ao se ligarem 
+              a receptores celulares específicos, sendo assim o vírus se adapta melhor nas regiões do corpo 
+              em que as células possuem esses receptores, por exemplo, os pneumócitos macrófagos e pulmonares. 
+              Depois dessa ligação, proteases celulares clivam a proteína S para que ocorra a fusão do patógeno 
+              com a célula, facilitando a entrada. Após este processo, outras proteínas específicas do vírus 
+              se ligam à célula hospedeira e interagem com a mesma, atuando também no desvio para as organelas 
+              de replicação onde usarão a maquinaria celular para que haja a replicação do genoma viral. A 
+              replicação do genoma fará com que haja novos vírus idênticos ao primeiro, garantindo a reprodução 
+              dele.
+            </p>
+            <hr/>
+
+            <h2>Influenza</h2>
+            <p>
+              A reprodução deste vírus começa quando ele se liga à membrana da célula. A ligação entre o vírus e 
+              a célula acontece, pois existe uma afinidade entre a hemaglutinina (HA) do e a mucoproteína, que 
+              contém resíduos de ácido siálico. A ligação induz a célula a permitir a entrada do vírus por 
+              endocitose mediada por receptores. Quando a partícula viral encontra uma célula inadequada, ela 
+              anula esta ligação pela ação da neuraminidade (NA). Após sua entrada, o vírus passa a comandar as 
+              atividades metabólicas da célula e inativa o comando gênico da mesma. Depois, toda síntese de 
+              transcrição da célula passa a ser direcionada para reprodução vírus. Posteriormente, inicia-se o 
+              estágio de maturação e liberação de novos vírus. O influenza tem uma característica única em recombinar 
+              essas proteínas com as dos colegas virais. Assim, se dois vírus da gripe diferentes infectam a mesma 
+              célula, lá dentro eles podem dar origem a um vírus novo. Da mistura de um H5N1 com um H3N2, por exemplo, 
+              pode nascer um H5N2. Essa peculiaridade, aliada às mutações regulares que um vírus sofre, explica por que 
+              nossas defesas enfrentam dificuldade para reconhecer um agente infeccioso novo.
+
+            </p>
+
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
